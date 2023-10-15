@@ -1,0 +1,34 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.556);
+    position:sticky;
+    top:0px;
+}
+header h1{
+    display:flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+    color:rgba(255, 255, 255, 0.927);
+}
+.nav-link{
+    color:inherit;
+    text-decoration: none;
+}
+nav ul{
+    display:flex;
+    gap:2rem;
+}
+nav ul li{
+    list-style-type: none;
+}
